@@ -7,10 +7,10 @@ local RunService = game:GetService('RunService')
 local RenderStepped = game:GetService('RunService').RenderStepped;
 local LocalPlayer = game:GetService('Players').LocalPlayer;
 local Mouse = LocalPlayer:GetMouse();
-if game.CoreGui:FindFirstChild("XenongHub") then game.CoreGui:FindFirstChild("XenongHub"):Destroy() end
+if game.CoreGui:FindFirstChild("JinyX") then game.CoreGui:FindFirstChild("JinyX"):Destroy() end
 local ScreenGui = Instance.new('ScreenGui');
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Global;
-ScreenGui.Name = "XenongHub"
+ScreenGui.Name = "JinyX"
 ScreenGui.Parent = CoreGui;
 local Toggles = {};
 local Options = {};
@@ -20,12 +20,12 @@ local Library = {
     Registry = {};
     RegistryMap = {};
     HudRegistry = {};
-    FontColor = Color3.fromRGB(255, 255, 255); -- Default = Color3.fromRGB(255, 255, 255);
-    MainColor = Color3.fromRGB(0, 15, 30); -- Default = Color3.fromRGB(0, 15, 30);
-    BackgroundColor = Color3.fromRGB(5, 5, 20); -- Default = Color3.fromRGB(5, 5, 20);
-    AccentColor = Color3.fromRGB(0, 228, 240); -- Default = Color3.fromRGB(0, 180, 240);
-    InlineColor = Color3.fromRGB(10, 30, 40); -- Default = Color3.fromRGB(10, 30, 40);
-    OutlineColor = Color3.fromRGB(0, 0, 5); -- Default = Color3.fromRGB(0, 0, 5);
+    FontColor = Color3.fromRGB(255,255,255); -- Default = Color3.fromRGB(255, 255, 255);
+    MainColor = Color3.fromRGB(24,24,37); -- Default = Color3.fromRGB(0, 15, 30);
+    BackgroundColor = Color3.fromRGB(22,22,31); -- Default = Color3.fromRGB(5, 5, 20);
+    AccentColor = Color3.fromRGB(85,57,235); -- Default = Color3.fromRGB(0, 180, 240);
+    InlineColor = Color3.fromRGB(45,45,45); -- Default = Color3.fromRGB(10, 30, 40);
+    OutlineColor = Color3.fromRGB(50,50,50); -- Default = Color3.fromRGB(0, 0, 5);
     OpenedFrames = {};
     Signals = {};
 };
