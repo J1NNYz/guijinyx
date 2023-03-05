@@ -24,8 +24,8 @@ local Library = {
     MainColor = Color3.fromRGB(24,24,37); -- Default = Color3.fromRGB(0, 15, 30);
     BackgroundColor = Color3.fromRGB(22,22,31); -- Default = Color3.fromRGB(5, 5, 20);
     AccentColor = Color3.fromRGB(85,57,235); -- Default = Color3.fromRGB(0, 180, 240);
-    InlineColor = Color3.fromRGB(45,45,45); -- Default = Color3.fromRGB(10, 30, 40);
-    OutlineColor = Color3.fromRGB(50,50,50); -- Default = Color3.fromRGB(0, 0, 5);
+    InlineColor = Color3.fromRGB(10, 30, 40); -- Default = Color3.fromRGB(10, 30, 40);
+    OutlineColor = Color3.fromRGB(0,0,0); -- Default = Color3.fromRGB(0, 0, 5);
     OpenedFrames = {};
     Signals = {};
 };
